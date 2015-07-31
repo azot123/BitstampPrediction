@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="SBT: net.finmath:finmath-lib:1.2.19:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/net.finmath/finmath-lib/jars/finmath-lib-1.2.19.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.ivy2/cache/net.finmath/finmath-lib/docs/finmath-lib-1.2.19-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/net.finmath/finmath-lib/srcs/finmath-lib-1.2.19-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
