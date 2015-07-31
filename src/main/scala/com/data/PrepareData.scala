@@ -33,8 +33,12 @@ object PrepareData extends App {
         ))
         if (prices.size() == 30) {
           val pList = List[Double]()
-          for (p <- prices){
+          val itr = prices.iterator()
+          for (itr.hasNext){
+            pList :+ itr.next().price
           }
+          val pricesArr: Array[Double]  = (pList map (_.toDouble)).toArray
+          //createModelsAndInsertToDb(price = prices.getLast(),(new ARMAGARCH(pricesArr)).,GARCH(pricesArr) )
         }
       }
     } catch {
